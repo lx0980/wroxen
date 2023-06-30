@@ -1,4 +1,4 @@
-# (c) TheLx0980
+# (c) TheLx0980  
 
 import os
 import logging
@@ -30,7 +30,7 @@ logging.basicConfig(
     datefmt='%d-%b-%y %H:%M:%S',
     handlers=[
         RotatingFileHandler(
-            "autofilterbot.txt",
+            "wroxenbot.txt",
             maxBytes=50000000,
             backupCount=10
         ),
